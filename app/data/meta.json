@@ -1,0 +1,44 @@
+{
+  "date": "Friday, 20 November 2026",
+  "story_count": 37,
+  "region_counts": {
+    "Americas": 11,
+    "Asia": 9,
+    "Middle East": 5,
+    "Africa": 5,
+    "Europe": 5,
+    "Oceania": 2
+  },
+  "metrics": [
+    {
+      "value": "9",
+      "label": "killed in Russia's overnight attack on Ukraine",
+      "source": "https://www.rferl.org/a/at-least-9-killed-in-russian-attacks-on-ukraine-kyiv-bridges-damaged/33902696.html"
+    },
+    {
+      "value": "51-48",
+      "label": "Senate vote rejecting Iran war powers limits",
+      "source": "https://www.reuters.com/world/us-senate-rejects-resolution-curbing-trumps-iran-war-powers-2026-11-19"
+    },
+    {
+      "value": "589M",
+      "label": "children living in conflict zones, a record",
+      "source": "https://reliefweb.int/report/world/record-high-nearly-one-four-children-now-live-conflict-zones-save"
+    },
+    {
+      "value": "£17bn",
+      "label": "projected UK GDP boost from the EU deal",
+      "source": "https://www.gov.uk/government/speeches/pm-speech-at-uk-eu-summit-20-november-2026"
+    },
+    {
+      "value": "$93",
+      "label": "Brent crude as Gulf shipping risks mount",
+      "source": "https://m.economictimes.com/markets/commodities/news/oil-price-today-november-20-brent-crude-rises-t"
+    },
+    {
+      "value": "$48bn",
+      "label": "cost of the US war on Iran so far",
+      "source": "https://havanatimes.org/news/international-news-briefs-for-friday-november-20-2026"
+    }
+  ]
+}
