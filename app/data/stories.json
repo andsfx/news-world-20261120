@@ -4,6 +4,9 @@
     "body": "Missiles and drones pounded Kyiv for over six hours, damaging three Dnipro bridges and embassies; a Kharkiv hospital was hit, wounding four.",
     "region": "Europe",
     "field": "Conflict",
+    "loc": "Kyiv",
+    "spec": "9 killed",
+    "src": "RFE/RL · Al Jazeera",
     "sources": [
       {"outlet": "RFE/RL", "url": "https://www.rferl.org/a/at-least-9-killed-in-russian-attacks-on-ukraine-kyiv-bridges-damaged/33902696.html", "published": "2026-11-20"},
       {"outlet": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges", "published": "2026-11-20"},
@@ -15,6 +18,9 @@
     "body": "Burnham, Costa and von der Leyen agreed a post-Brexit reset in Brussels; the Treasury says it adds 17 billion pounds to GDP.",
     "region": "Europe",
     "field": "Politics",
+    "loc": "Brussels",
+    "spec": "£17bn to GDP",
+    "src": "AP · GOV.UK",
     "sources": [
       {"outlet": "AP (Boston Herald)", "url": "https://www.bostonherald.com/2026/11/20/uk-eu-deals-trade-brexit", "published": "2026-11-20"},
       {"outlet": "GOV.UK", "url": "https://www.gov.uk/government/speeches/pm-speech-at-uk-eu-summit-20-november-2026", "published": "2026-11-20"},
@@ -26,6 +32,9 @@
     "body": "Back in Washington, he faces his first news conference since the midterms; Shenzhen brought no breakthroughs on arms, Iran or Ukraine.",
     "region": "Americas",
     "field": "Politics",
+    "loc": "Washington",
+    "spec": "12 out of 10",
+    "src": "CBS · CNN",
     "sources": [
       {"outlet": "CBS News", "url": "https://www.cbsnews.com/live-updates/trump-press-conference-live-stream-2026-11-20", "published": "2026-11-20"},
       {"outlet": "CNN", "url": "https://www.cnn.com/2026/11/20/politics/live-news/trump-white-house-press-conference", "published": "2026-11-20"}
@@ -36,6 +45,9 @@
     "body": "The ICJ's first genocide finding; Rohingya in Bangladesh welcomed it and pressed to go home.",
     "region": "Asia",
     "field": "Law",
+    "loc": "The Hague",
+    "spec": "first genocide finding",
+    "src": "CNN · HRW",
     "sources": [
       {"outlet": "CNN", "url": "https://www.cnn.com/2026/11/19/asia/icj-myanmar-genocide-rohingya-ruling-intl-hnk", "published": "2026-11-19"},
       {"outlet": "Human Rights Watch", "url": "https://www.hrw.org/news/2026/11/19/world-court-finds-myanmar-committed-rohingya-genocide", "published": "2026-11-19"},
@@ -47,6 +59,9 @@
     "body": "A record 589 million children lived near fighting in 2025; in Africa the share is two in five, the charity says.",
     "region": "Africa",
     "field": "Society",
+    "loc": "Worldwide",
+    "spec": "589m children",
+    "src": "Save the Children · Le Monde",
     "sources": [
       {"outlet": "Save the Children via ReliefWeb", "url": "https://reliefweb.int/report/world/record-high-nearly-one-four-children-now-live-conflict-zones-save", "published": "2026-11-19"},
       {"outlet": "allAfrica", "url": "https://allafrica.com/stories/202611200223.html", "published": "2026-11-20"},
@@ -58,6 +73,9 @@
     "body": "Three Republicans joined most Democrats in the failed bid; the Pentagon says the Iran war has cost over 48 billion dollars.",
     "region": "Americas",
     "field": "Politics",
+    "loc": "Washington",
+    "spec": "51-48 vote",
+    "src": "Reuters · Al Jazeera",
     "sources": [
       {"outlet": "Reuters", "url": "https://www.reuters.com/world/us-senate-rejects-resolution-curbing-trumps-iran-war-powers-2026-11-19", "published": "2026-11-19"},
       {"outlet": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-wa", "published": "2026-11-19"}
@@ -68,6 +86,9 @@
     "body": "An unidentified object crash-landed near the Ukrainian border during Russia's barrage; NATO is stepping up air defences.",
     "region": "Europe",
     "field": "Conflict",
+    "loc": "Poland",
+    "spec": "1 object crash-landed",
+    "src": "AP · Democracy Now",
     "sources": [
       {"outlet": "AP via Yahoo News", "url": "https://www.yahoo.com/news/world/articles/poland-reports-airspace-violation-during-091140047.html", "published": "2026-11-20"},
       {"outlet": "Democracy Now via Havana Times", "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-20-2026", "published": "2026-11-20"}
@@ -78,6 +99,9 @@
     "body": "Negotiators in Antalya face a deadlocked final day after the slimmed-down text shifted to carbon capture; activists condemn it.",
     "region": "Middle East",
     "field": "Climate",
+    "loc": "Antalya",
+    "spec": "final day deadlock",
+    "src": "Reuters · France 24",
     "sources": [
       {"outlet": "Reuters", "url": "https://x.com/Reuters/status/2123458817945940035", "published": "2026-11-19"},
       {"outlet": "Democracy Now via Havana Times", "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-20-2026", "published": "2026-11-20"},
@@ -89,6 +113,9 @@
     "body": "The coalition destroyed the ballistic missile aimed at the kingdom's south; cross-border attacks show no sign of abating.",
     "region": "Middle East",
     "field": "Conflict",
+    "loc": "Saudi Arabia",
+    "spec": "1 missile intercepted",
+    "src": "Reuters · AFP",
     "sources": [
       {"outlet": "Reuters", "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-intercepted-houthi-missile-tar", "published": "2026-11-20"},
       {"outlet": "AFP via BSS", "url": "https://www.bssnews.net/international/448068", "published": "2026-11-20"}
@@ -99,6 +126,9 @@
     "body": "Winds of 70-80 km/h and heavy rain hit Gopalpur at daybreak; it is the third cyclone to strike the region in a month.",
     "region": "Asia",
     "field": "Disaster",
+    "loc": "Gopalpur",
+    "spec": "70-80 km/h winds",
+    "src": "The Hindu · DW",
     "sources": [
       {"outlet": "The Hindu", "url": "https://www.thehindu.com/news/top-news-of-the-day-november-20-2026/article71724226.ece", "published": "2026-11-20"},
       {"outlet": "DW", "url": "https://www.dw.com/en/india-pakistani-minister-visits-delhi-for-sco-forum-amid-frozen-ties/live-79999264", "published": "2026-11-20"}
@@ -109,6 +139,9 @@
     "body": "One Palestinian was killed and 13 wounded in attacks across the strip, medics said, including a drone strike on a bicycle in Gaza City.",
     "region": "Middle East",
     "field": "Conflict",
+    "loc": "Gaza City",
+    "spec": "1 killed, 13 wounded",
+    "src": "MEM · Anadolu",
     "sources": [
       {"outlet": "Middle East Monitor", "url": "https://www.middleeastmonitor.com/20261120-palestinian-killed-13-injured-in-israeli-attacks-across-g", "published": "2026-11-20"},
       {"outlet": "Anadolu", "url": "https://www.aa.com.tr/en/middle-east/palestinian-killed-13-injured-in-israeli-attacks-across-gaza-de", "published": "2026-11-20"}
@@ -119,6 +152,9 @@
     "body": "Frontier Minerals beat Chinese bidders for the Mrima Hill niobium project, part of Washington's critical-minerals push.",
     "region": "Africa",
     "field": "Economy",
+    "loc": "Mrima Hill",
+    "spec": "$60bn tender",
+    "src": "BBC · Mining.com",
     "sources": [
       {"outlet": "BBC", "url": "https://www.bbc.com/news/articles/cm9q84gp0gr3o", "published": "2026-11-20"},
       {"outlet": "Mining.com", "url": "https://www.mining.com/web/kenya-picks-us-consortium-to-develop-mrima-hill-critical-minerals-project", "published": "2026-11-20"}
@@ -129,6 +165,9 @@
     "body": "The BAAJA measure speeds energy, housing and data-centre approvals; 14 Democrats including Schumer voted yes.",
     "region": "Americas",
     "field": "Politics",
+    "loc": "Washington",
+    "spec": "62-33 vote",
+    "src": "CNBC · The Hill",
     "sources": [
       {"outlet": "CNBC", "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html", "published": "2026-11-20"},
       {"outlet": "The Hill", "url": "https://thehill.com/homenews/senate/6229829-senate-passes-permitting-reform", "published": "2026-11-20"}
@@ -139,6 +178,9 @@
     "body": "The tech rout deepens and the S&P 500 heads for its longest losing streak since 2020.",
     "region": "Americas",
     "field": "Markets",
+    "loc": "New York",
+    "spec": "-10%",
+    "src": "WSJ · Crypto Briefing",
     "sources": [
       {"outlet": "WSJ", "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026", "published": "2026-11-20"},
       {"outlet": "Crypto Briefing", "url": "https://cryptobriefing.com/anthropic-nasdaq-debut-record-fall", "published": "2026-11-20"}
@@ -149,6 +191,9 @@
     "body": "An appeals court let the administration press its bid to end TPS for some 600,000 Venezuelans.",
     "region": "Americas",
     "field": "Politics",
+    "loc": "Washington",
+    "spec": "600,000 TPS",
+    "src": "Spectrum News · Click Orlando",
     "sources": [
       {"outlet": "Spectrum News", "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/11/19/appeals-court-halts-order-restoring-tps-", "published": "2026-11-19"},
       {"outlet": "Click Orlando", "url": "https://www.clickorlando.com/news/politics/2026/11/19/appeals-court-grants-trump-request-to-halt-ord", "published": "2026-11-19"}
@@ -159,6 +204,9 @@
     "body": "A federal judge sentenced Jose Luis Abarca and 25 others for crimes tied to the 2014 disappearance of 43 students.",
     "region": "Americas",
     "field": "Society",
+    "loc": "Iguala",
+    "spec": "60 years",
+    "src": "Rio Times · La Silla Rota",
     "sources": [
       {"outlet": "Rio Times", "url": "https://www.riotimesonline.com/mexico-ex-mayor-abarca-60-years-iguala-killings", "published": "2026-11-20"},
       {"outlet": "La Silla Rota", "url": "https://lasillarota.com/estados/2026/11/19/jose-luis-abarca-60-anos-de-prision-por-el-caso-avispones", "published": "2026-11-19"}
@@ -169,6 +217,9 @@
     "body": "The tremor struck Ecuador's largest city at 00:49, ten days before local elections.",
     "region": "Americas",
     "field": "Disaster",
+    "loc": "Guayaquil",
+    "spec": "M5.1 at 00:49",
+    "src": "EMSC · Rio Times",
     "sources": [
       {"outlet": "VolcanoDiscovery (EMSC)", "url": "https://www.volcanodiscovery.com/earthquakes/news/418168/Magnitude-53-earthquake-strikes-near-Guayaq", "published": "2026-11-19"},
       {"outlet": "Rio Times", "url": "https://www.riotimesonline.com/ecuador-guayaquil-earthquake-magnitude-5-1-november-19", "published": "2026-11-20"}
@@ -179,6 +230,9 @@
     "body": "Finance Minister Mthuli Ncube gave defence and home affairs the biggest slice as El Nino drought fears grow.",
     "region": "Africa",
     "field": "Economy",
+    "loc": "Zimbabwe",
+    "spec": "2027 budget",
+    "src": "allAfrica · ZimInd",
     "sources": [
       {"outlet": "allAfrica", "url": "https://allafrica.com/stories/202611200223.html", "published": "2026-11-20"},
       {"outlet": "Zimbabwe Independent", "url": "https://zimbabwe-independent.com/article/2027-national-budget-key-highlights", "published": "2026-11-20"}
@@ -189,6 +243,9 @@
     "body": "Mogadishu accused Abu Dhabi of interference and recalled its own envoy, deepening a Horn of Africa standoff.",
     "region": "Africa",
     "field": "Politics",
+    "loc": "Mogadishu",
+    "spec": "72 hours to leave",
+    "src": "Hiiraan · Anadolu",
     "sources": [
       {"outlet": "Hiiraan Online", "url": "https://www.hiiraan.com/news4/2026/Nov/206809/somalia_expels_uae_ambassador_gives_him_72_hours_to_le", "published": "2026-11-19"},
       {"outlet": "Anadolu", "url": "https://www.aa.com.tr/en/africa/somalia-orders-uae-ambassador-to-leave-within-72-hours/4131043", "published": "2026-11-19"}
@@ -199,6 +256,9 @@
     "body": "Amnesty and the UN want investigations after drone attacks on civilians and power stations in El Obeid and beyond.",
     "region": "Africa",
     "field": "Conflict",
+    "loc": "El Obeid",
+    "spec": "2 groups urge probe",
+    "src": "Amnesty · OHCHR",
     "sources": [
       {"outlet": "Amnesty", "url": "https://www.amnesty.org/en/latest/news/2026/11/sudan-devastating-rsf-drone-strikes-on-civilians-in-e", "published": "2026-11-19"},
       {"outlet": "OHCHR", "url": "https://www.ohchr.org/en/press-releases/2026/11/sudan-un-report-details-deadly-civilian-impact-surge", "published": "2026-11-19"}
@@ -209,6 +269,9 @@
     "body": "Musadik Malik's arrival is Pakistan's first ministerial visit since 2023; Modi opens the civilizational dialogue forum.",
     "region": "Asia",
     "field": "Politics",
+    "loc": "Delhi",
+    "spec": "first since 2023",
+    "src": "The Hindu · DW",
     "sources": [
       {"outlet": "The Hindu", "url": "https://www.thehindu.com/news/top-news-of-the-day-november-20-2026/article71724226.ece", "published": "2026-11-20"},
       {"outlet": "DW", "url": "https://www.dw.com/en/india-pakistani-minister-visits-delhi-for-sco-forum-amid-frozen-ties/live-79999264", "published": "2026-11-20"}
@@ -219,6 +282,9 @@
     "body": "New Delhi announced the 22-23 November state visit, his first since taking office in March.",
     "region": "Asia",
     "field": "Politics",
+    "loc": "New Delhi",
+    "spec": "22-23 Nov visit",
+    "src": "The Hindu · NIE",
     "sources": [
       {"outlet": "The Hindu", "url": "https://www.thehindu.com/news/national/nepal-pm-balendra-shah-to-visit-india-on-november-2223/articl", "published": "2026-11-20"},
       {"outlet": "New Indian Express", "url": "https://www.newindianexpress.com/world/2026/Nov/20/nepal-pm-balendra-shah-to-make-first-bilateral-fo", "published": "2026-11-20"}
@@ -229,6 +295,9 @@
     "body": "Refugees in Cox's Bazar celebrated the ICJ ruling and pressed for a safe return to Myanmar.",
     "region": "Asia",
     "field": "Society",
+    "loc": "Cox's Bazar",
+    "spec": "verdict welcomed",
+    "src": "The Hindu · Anadolu",
     "sources": [
       {"outlet": "The Hindu", "url": "https://www.thehindu.com/news/international/rohingya-in-bangladesh-welcome-un-courts-genocide-verdic", "published": "2026-11-20"},
       {"outlet": "Anadolu", "url": "https://www.aa.com.tr/en/asia-pacific/bangladesh-hopes-genocide-verdict-against-myanmar-helps-rohing", "published": "2026-11-19"}
@@ -239,6 +308,9 @@
     "body": "Their 2+2 ministers agreed to expand equipment and technology cooperation and joint exercises.",
     "region": "Asia",
     "field": "Politics",
+    "loc": "Tokyo",
+    "spec": "2+2 talks",
+    "src": "AP · Al Arabiya",
     "sources": [
       {"outlet": "AP via US News", "url": "https://www.usnews.com/news/world/articles/2026-11-19/japan-india-agree-to-enhance-military-and-defe", "published": "2026-11-19"},
       {"outlet": "Al Arabiya", "url": "https://english.alarabiya.net/News/world/2026/11/19/japan-india-agree-to-enhance-military-and-defens", "published": "2026-11-19"}
@@ -249,6 +321,9 @@
     "body": "A stormy Friday brought flash floods, damaging winds and hail across Queensland, NSW and Victoria.",
     "region": "Oceania",
     "field": "Disaster",
+    "loc": "E. Australia",
+    "spec": "3 states hit",
+    "src": "BOM · news.com.au",
     "sources": [
       {"outlet": "Bureau of Meteorology", "url": "https://www.bom.gov.au/video/severe-weather-update-stormy-friday-for-eastern-australia", "published": "2026-11-20"},
       {"outlet": "news.com.au", "url": "https://www.news.com.au/technology/environment/huge-storm-surge-set-to-bring-giant-hail-to-southern-", "published": "2026-11-20"}
@@ -259,6 +334,9 @@
     "body": "The Treasury froze two NZ-based figures' assets in the first such action against a New Zealand gang.",
     "region": "Oceania",
     "field": "Society",
+    "loc": "New Zealand",
+    "spec": "2 leaders sanctioned",
+    "src": "RNZ · 1News",
     "sources": [
       {"outlet": "RNZ", "url": "https://www.rnz.co.nz/news/crime-and-justice/2700126/comancheros-first-gang-in-nz-to-be-sanctioned-b", "published": "2026-11-20"},
       {"outlet": "1News", "url": "https://www.1news.co.nz/2026/11/20/comancheros-leaders-in-nz-among-those-targeted-by-sweeping-us-san", "published": "2026-11-20"}
@@ -269,6 +347,9 @@
     "body": "'We've got time,' he said aboard Air Force One, deferring any major decision on new strikes past 1 January.",
     "region": "Middle East",
     "field": "Conflict",
+    "loc": "US",
+    "spec": "into 2027",
+    "src": "TIME · Reuters",
     "sources": [
       {"outlet": "TIME", "url": "https://time.com/article/2026/11/20/iran-war-trump-strikes-major-decision-january-2027", "published": "2026-11-20"},
       {"outlet": "Reuters", "url": "https://www.reuters.com/world/trump-says-us-will-see-what-happens-conflict-with-iran-after-january-1-2026-11-19/", "published": "2026-11-19"}
@@ -279,6 +360,9 @@
     "body": "The Washington Post says he tasked the Mossad chief before October's vote without telling his cabinet or the IDF.",
     "region": "Middle East",
     "field": "Conflict",
+    "loc": "Israel",
+    "spec": "before Oct vote",
+    "src": "ToI · WaPo",
     "sources": [
       {"outlet": "Times of Israel", "url": "https://www.timesofisrael.com/netanyahu-said-to-have-asked-mossad-chief-to-plan-covert-iran-op-witho", "published": "2026-11-20"},
       {"outlet": "Washington Post via FDD", "url": "https://www.fdd.org/overnight-brief/november-20-2026", "published": "2026-11-20"}
@@ -289,6 +373,9 @@
     "body": "The controlled blast of unstable lead azide moves from Friday to Monday after residents raised safety fears.",
     "region": "Americas",
     "field": "Society",
+    "loc": "Iowa",
+    "spec": "Friday to Monday",
+    "src": "IPR · Linn County",
     "sources": [
       {"outlet": "Iowa Public Radio", "url": "https://www.iowapublicradio.org/ipr-news/2026-11-19/army-postpones-iowa-lead-azide-detonation", "published": "2026-11-19"},
       {"outlet": "Linn County", "url": "https://www.linncountyiowa.gov/m/newsflash/Home/Detail/4626", "published": "2026-11-19"}
@@ -299,6 +386,9 @@
     "body": "The Pentagon CIO takes over after Sean Cairncross's exit, days after outages hit banks, flights and the NSA.",
     "region": "Americas",
     "field": "Politics",
+    "loc": "Washington",
+    "spec": "3 sectors hit by outages",
+    "src": "AP · White House",
     "sources": [
       {"outlet": "AP", "url": "https://apnews.com/article/cyber-director-kirsten-davies-sean-cairncross-2f1f84f3ca5429d01ace67929c7", "published": "2026-11-19"},
       {"outlet": "CNN", "url": "https://www.cnn.com/2026/11/20/politics/live-news/trump-white-house-press-conference", "published": "2026-11-20"},
@@ -310,6 +400,9 @@
     "body": "The Connecticut campus reopened after Thursday night's armed-suspect scare; classes were called off.",
     "region": "Americas",
     "field": "Society",
+    "loc": "Connecticut",
+    "spec": "Thursday night scare",
+    "src": "WHDH · WFSB",
     "sources": [
       {"outlet": "WHDH", "url": "https://whdh.com/news/lockdown-lifted-classes-canceled-following-report-of-possible-gunman-at-quinni", "published": "2026-11-20"},
       {"outlet": "WFSB", "url": "https://www.wfsb.com/2026/11/20/quinnipiac-lockdown-due-concern-armed-suspect-campus", "published": "2026-11-20"}
@@ -320,6 +413,9 @@
     "body": "Reinaldo Dennes cried out as staff hunted over an hour for a vein before his lethal injection.",
     "region": "Americas",
     "field": "Society",
+    "loc": "Texas",
+    "spec": "over an hour",
+    "src": "Gilmer Mirror · Havana Times",
     "sources": [
       {"outlet": "Gilmer Mirror", "url": "https://www.gilmermirror.com/2026/11/20/witness-says-texas-execution-of-houston-man-was-botched", "published": "2026-11-20"},
       {"outlet": "Democracy Now via Havana Times", "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-20-2026", "published": "2026-11-20"}
@@ -330,6 +426,9 @@
     "body": "USCIRF wants a 'country of particular concern' label after 130 million names were struck from electoral rolls.",
     "region": "Asia",
     "field": "Politics",
+    "loc": "India",
+    "spec": "130m names struck",
+    "src": "Reuters · DW",
     "sources": [
       {"outlet": "Reuters", "url": "https://www.reuters.com/world/india/us-religious-freedom-panel-says-india-is-targeting-minorities-vo", "published": "2026-11-19"},
       {"outlet": "DW", "url": "https://www.dw.com/en/india-pakistani-minister-visits-delhi-for-sco-forum-amid-frozen-ties/live-79999264", "published": "2026-11-20"}
@@ -340,6 +439,9 @@
     "body": "The trilateral text skipped Iran and Ukraine; Xi urged Asia-Pacific integration after hosting the leaders' week.",
     "region": "Asia",
     "field": "Politics",
+    "loc": "Shenzhen",
+    "spec": "leaders' week ends",
+    "src": "ABC · SCMP",
     "sources": [
       {"outlet": "ABC News (Australia)", "url": "https://www.abc.net.au/news/2026-11-20/key-takeaways-from-trump-xi-putin-meeting/107407564", "published": "2026-11-20"},
       {"outlet": "SCMP", "url": "https://www.scmp.com/topics/xi-trump-putin-trilateral-meetings", "published": "2026-11-20"}
@@ -350,6 +452,9 @@
     "body": "The Supreme Court overturned Han Duck-soo's 15-year martial-law sentence and sent the case back.",
     "region": "Asia",
     "field": "Politics",
+    "loc": "Seoul",
+    "spec": "15-year sentence",
+    "src": "Al Jazeera · Anadolu",
     "sources": [
       {"outlet": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/19/south-korean-court-orders-retrial-for-ex-pm-han-over-marti", "published": "2026-11-19"},
       {"outlet": "Anadolu", "url": "https://www.aa.com.tr/en/asia-pacific/south-korea-s-top-court-overturns-ex-premier-han-s-15-year-pri", "published": "2026-11-19"}
@@ -360,6 +465,9 @@
     "body": "After Ukraine's attack on the Kerch bridge, Moscow says strikes on shipping and energy are back on the table.",
     "region": "Europe",
     "field": "Conflict",
+    "loc": "Moscow",
+    "spec": "Kerch bridge attack",
+    "src": "Reuters · Kyiv Independent",
     "sources": [
       {"outlet": "Reuters via FDD", "url": "https://www.fdd.org/overnight-brief/november-20-2026", "published": "2026-11-20"},
       {"outlet": "Kyiv Independent", "url": "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge", "published": "2026-11-20"}
@@ -370,6 +478,9 @@
     "body": "Zelensky and EU allies in Berlin rejected big-power deals over Ukraine's head after the Shenzhen summit.",
     "region": "Europe",
     "field": "Politics",
+    "loc": "Berlin",
+    "spec": "after Shenzhen summit",
+    "src": "Axios · Al Jazeera",
     "sources": [
       {"outlet": "Axios", "url": "https://www.axios.com/2026/11/20/trump-pushes-putin-ukraine-war-deal", "published": "2026-11-20"},
       {"outlet": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/19/far-from-trump-putin-meeting-europe-to-count-cost-of-ukrai", "published": "2026-11-19"}

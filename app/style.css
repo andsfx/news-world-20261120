@@ -1,80 +1,92 @@
-/* The World Today - newspaper front page styles.
+/* The World in One Day - newspaper front page styles (v2, winning structure).
    Kept here for reference; app/index.html inlines these same rules so the
    page is fully self-contained for the headless renderer. */
 :root{
-  --paper:#f4f1e8; --ink:#161615; --accent:#8f1d22; --hair:#b9b4a5; --mid:#6f6a5c; --water:#8a8575;
-}
-*{margin:0;padding:0;box-sizing:border-box;}
-html,body{width:1024px;height:1024px;background:var(--paper);color:var(--ink);
-  font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;overflow:hidden;}
-.page{width:1024px;height:1024px;padding:10px 16px 8px 16px;display:flex;flex-direction:column;}
+    --paper:#f4f1e8; --ink:#161615; --accent:#8f1d22; --hair:#b9b4a5; --mid:#6f6a5c;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:1024px;height:1024px;background:var(--paper);color:var(--ink);
+    font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;overflow:hidden;}
+  .page{width:1024px;height:1024px;padding:10px 16px 8px 16px;display:flex;flex-direction:column;}
 
-/* 1. Masthead */
-.masthead{text-align:center;padding-top:2px;}
-.rule{height:2px;background:var(--ink);}
-.rule.thin{height:1px;background:var(--ink);}
-.masthead h1{font-family:Georgia,'Times New Roman',serif;font-weight:900;font-size:47px;
-  letter-spacing:6px;line-height:1.1;margin:3px 0 1px 0;text-transform:uppercase;}
-.masthead .ed{font-size:9.5px;letter-spacing:3px;text-transform:uppercase;color:var(--mid);margin-top:1px;}
+  /* 1. Masthead = the date */
+  .masthead{text-align:center;}
+  .rule{height:2.5px;background:var(--ink);}
+  .masthead h1{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:45px;
+    letter-spacing:3px;line-height:1.02;margin:3px 0 2px 0;text-transform:uppercase;color:var(--ink);}
+  .masthead .tag{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--mid);margin-top:3px;font-weight:700;}
 
-/* 2. Dateline */
-.dateline{display:flex;justify-content:space-between;align-items:baseline;
-  border-bottom:2px solid var(--ink);padding:3px 2px 4px 2px;margin-top:3px;}
-.dateline .date{font-family:Georgia,serif;font-weight:900;font-size:19px;letter-spacing:4px;}
-.dateline .count{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--accent);}
+  /* 2. Lead deck */
+  .deck{display:flex;align-items:baseline;justify-content:center;gap:8px;
+    font-weight:700;font-size:11.5px;line-height:1.15;margin-top:3px;text-align:center;}
+  .deck .dot{color:var(--accent);font-weight:900;}
 
-/* 3. Region pills */
-.regions{display:flex;justify-content:space-between;margin:5px 1px 4px 1px;}
-.pill{font-size:10.5px;font-weight:700;letter-spacing:1.5px;padding:3px 9px;
-  border:1.5px solid var(--ink);background:transparent;text-transform:uppercase;}
-.pill b{color:var(--accent);}
+  /* 3. Count + regions */
+  .countstrip{margin-top:4px;}
+  .countline{text-align:center;font-size:10px;font-weight:900;letter-spacing:1.8px;
+    text-transform:uppercase;color:var(--ink);margin-bottom:3px;}
+  .regions{display:flex;justify-content:space-between;gap:5px;}
+  .pill{flex:1;text-align:center;font-size:9.5px;font-weight:700;letter-spacing:1.3px;
+    padding:3px 2px;border:1.5px solid var(--ink);background:#ecd9d3;text-transform:uppercase;}
+  .pill b{color:var(--accent);font-family:Georgia,serif;font-size:11px;}
 
-/* 4. Metrics */
-.metrics{display:flex;border-top:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);}
-.metric{flex:1;text-align:center;padding:5px 4px 6px 4px;border-right:1px solid var(--hair);}
-.metric:last-child{border-right:none;}
-.metric .num{font-family:Georgia,serif;font-weight:900;font-size:27px;color:var(--accent);line-height:1.05;}
-.metric .lab{font-size:7.8px;letter-spacing:0.6px;text-transform:uppercase;color:var(--mid);
-  line-height:1.25;margin-top:2px;}
+  /* 4. Stats band */
+  .stats{display:flex;border-top:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);
+    margin-top:5px;background:#fffdf6;}
+  .stat{flex:1;text-align:center;padding:3px 3px 4px 3px;border-right:1px solid var(--hair);}
+  .stat:last-child{border-right:none;}
+  .stat .num{font-family:Georgia,serif;font-weight:700;font-size:19px;color:var(--accent);line-height:1.05;}
+  .stat .num.sm{font-size:14px;line-height:1.25;}
+  .stat .lab{font-size:6.3px;letter-spacing:0.4px;text-transform:uppercase;color:var(--mid);
+    line-height:1.28;margin-top:2px;}
 
-/* 5. Lead cards */
-.leads{display:flex;gap:10px;margin-top:7px;height:204px;}
-.lead{flex:1;border:1.5px solid var(--ink);padding:0;display:flex;flex-direction:column;background:#fff;}
-.lead .art{height:78px;border-bottom:1.5px solid var(--ink);}
-.lead .art svg{width:100%;height:100%;display:block;}
-.lead .txt{padding:6px 9px 7px 9px;display:flex;flex-direction:column;flex:1;}
-.kicker{font-size:9.5px;font-weight:900;letter-spacing:1.8px;color:var(--accent);text-transform:uppercase;margin-bottom:3px;}
-.lead h2{font-family:Georgia,serif;font-weight:900;font-size:20.5px;line-height:1.13;margin-bottom:4px;}
-.lead p{font-size:10.8px;line-height:1.32;color:#2a2822;}
+  /* 5. Cards grid */
+  .cards{flex:1;min-height:0;display:grid;grid-template-columns:repeat(3,1fr);
+    grid-template-rows:minmax(128px,1.4fr) minmax(96px,1fr) minmax(96px,1fr) minmax(96px,1fr) minmax(34px,0.4fr);
+    gap:5px;margin-top:6px;}
+  .card{border:1.5px solid var(--ink);background:#fffdf6;padding:4px 7px 3px 7px;
+    display:flex;flex-direction:column;overflow:hidden;}
+  .card .head{display:flex;align-items:baseline;gap:5px;min-width:0;}
+  .card .num{font-family:Georgia,serif;font-weight:700;font-size:15px;color:var(--accent);line-height:1;flex:0 0 auto;}
+  .card .kick{font-size:6.8px;font-weight:700;letter-spacing:1px;color:var(--mid);
+    text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .card h2{font-family:Georgia,serif;font-weight:700;font-size:16px;line-height:1.1;margin:2px 0 1px 0;}
+  .card .spec{font-family:Georgia,serif;font-weight:700;font-size:10.5px;color:var(--accent);
+    letter-spacing:0.4px;margin-bottom:1px;}
+  .card .art{margin-top:auto;height:17px;}
+  .card .art svg{width:100%;height:100%;display:block;}
+  .card.lead h2{font-size:17.5px;line-height:1.08;}
+  .card.lead p{font-size:9.4px;line-height:1.24;color:#2a2822;margin-bottom:1px;}
+  .card.lead .art{height:26px;}
+  .card.wide{grid-column:1/-1;flex-direction:row;align-items:center;gap:8px;}
+  .card.wide h2{font-size:15.5px;line-height:1.1;margin:0;}
+  .card.wide .spec{font-size:10.5px;margin:0;}
+  .card.wide .art{margin-left:auto;width:48px;flex:0 0 48px;height:24px;margin-top:0;}
 
-/* 6. Second band */
-.band2{display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(2,1fr);
-  gap:7px;margin-top:8px;height:176px;}
-.card{border:1px solid var(--ink);padding:5px 7px;background:#fff;overflow:hidden;
-  display:flex;flex-direction:column;justify-content:flex-start;}
-.card .kicker{font-size:8px;letter-spacing:1.4px;margin-bottom:2px;}
-.card h3{font-family:Georgia,serif;font-weight:700;font-size:13.5px;line-height:1.16;}
+  /* 6. Map band */
+  .mapband{display:flex;gap:10px;margin-top:7px;border-top:1.5px solid var(--ink);padding-top:5px;}
+  .mapwrap{flex:0 0 376px;}
+  .mapwrap svg{width:376px;height:108px;display:block;}
+  .mapwrap .cap{font-size:7px;letter-spacing:1.6px;color:var(--mid);text-transform:uppercase;
+    text-align:center;margin-top:2px;}
+  .maplist{flex:1;display:flex;flex-direction:column;justify-content:flex-start;gap:0;}
+  .mitem{font-size:8.5px;line-height:1.1;color:#2a2822;}
+  .mitem b{color:var(--accent);font-family:Georgia,serif;margin-right:2px;font-size:9px;}
+  .mitem .r{font-weight:700;letter-spacing:0.5px;text-transform:uppercase;font-size:7.4px;color:var(--mid);}
 
-/* 7. Map band */
-.mapband{display:flex;gap:8px;margin-top:8px;border-top:1.5px solid var(--ink);padding-top:6px;height:158px;}
-.mapwrap{flex:0 0 560px;}
-.mapwrap svg{width:560px;height:148px;display:block;}
-.mapwrap .cap{font-size:7.5px;letter-spacing:1.5px;color:var(--mid);text-transform:uppercase;text-align:center;}
-.maplist{flex:1;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(6,1fr);
-  gap:1px 12px;align-content:start;}
-.mitem{font-size:10.6px;line-height:1.22;padding:1px 0;}
-.mitem b{color:var(--accent);font-family:Georgia,serif;margin-right:3px;}
-.mitem .r{font-weight:700;letter-spacing:0.6px;text-transform:uppercase;font-size:8.6px;color:var(--mid);}
+  /* 7. ALSO block */
+  .alsowrap{margin-top:6px;border-top:1.5px solid var(--ink);padding-top:3px;}
+  .alsowrap .cap{font-size:11px;font-weight:700;letter-spacing:1px;color:var(--ink);
+    text-align:center;margin-bottom:2px;text-transform:uppercase;}
+  .alsowrap .cap em{color:var(--accent);font-style:normal;}
+  .dense{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0 14px;align-content:start;}
+  .ditem{font-size:9px;line-height:1.15;color:#2a2822;}
+  .ditem .n{font-family:Georgia,serif;font-weight:700;color:var(--accent);margin-right:2px;}
+  .ditem .l{font-weight:700;letter-spacing:0.4px;text-transform:uppercase;font-size:7.4px;color:var(--mid);}
+  .ditem .s{color:var(--mid);font-size:8.2px;}
 
-/* 8. Dense block */
-.densewrap{margin-top:8px;border-top:1.5px solid var(--ink);padding-top:5px;flex:1;min-height:0;}
-.densewrap .cap{font-size:8px;letter-spacing:2px;color:var(--mid);text-transform:uppercase;text-align:center;margin-bottom:3px;}
-.dense{display:grid;grid-template-columns:1fr 1fr 1fr;grid-auto-rows:auto;gap:2px 14px;align-content:start;}
-.ditem{font-size:10.8px;line-height:1.28;color:#2a2822;}
-.ditem .r{font-weight:900;font-size:8.6px;letter-spacing:0.8px;text-transform:uppercase;color:var(--accent);}
-
-/* 9. Footer */
-.footer{border-top:2px solid var(--ink);margin-top:5px;padding-top:4px;
-  display:flex;justify-content:space-between;align-items:baseline;}
-.footer .src{font-size:8px;letter-spacing:0.8px;text-transform:uppercase;color:var(--mid);}
-.footer .d{font-family:Georgia,serif;font-weight:900;font-size:11.5px;letter-spacing:2px;}
+  /* 8. Footer */
+  .footer{border-top:2.5px solid var(--ink);margin-top:7px;padding-top:5px;
+    display:flex;justify-content:space-between;align-items:baseline;}
+  .footer .src{font-size:7.6px;letter-spacing:0.9px;text-transform:uppercase;color:var(--mid);font-weight:700;}
+  .footer .d{font-family:Georgia,serif;font-weight:700;font-size:11.5px;letter-spacing:2px;}
